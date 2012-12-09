@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A01E6E216753E6500913B65 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A01E6E116753E6500913B65 /* Cocoa.framework */; };
+		6A01E6E416753E6500913B65 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A01E6E316753E6500913B65 /* MacRuby.framework */; };
+		6A01E6ED16753E6600913B65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A01E6EB16753E6600913B65 /* InfoPlist.strings */; };
+		6A01E6EF16753E6600913B65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A01E6EE16753E6600913B65 /* main.m */; };
+		6A01E6F416753E6600913B65 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A01E6F216753E6600913B65 /* MainMenu.xib */; };
+		6A01E6F716753E6600913B65 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A01E6F616753E6600913B65 /* rb_main.rb */; };
+		6A01E6F916753E6600913B65 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A01E6F816753E6600913B65 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A01E6E616753E6600913B65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A01E6D416753E6500913B65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A01E6DC16753E6500913B65;
+			remoteInfo = QuickMouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A01E6DD16753E6500913B65 /* QuickMouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickMouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A01E6E116753E6500913B65 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6A01E6E316753E6500913B65 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		6A01E6EA16753E6600913B65 /* QuickMouse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickMouse-Info.plist"; sourceTree = "<group>"; };
+		6A01E6EC16753E6600913B65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A01E6EE16753E6600913B65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A01E6F016753E6600913B65 /* QuickMouse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickMouse-Prefix.pch"; sourceTree = "<group>"; };
+		6A01E6F316753E6600913B65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6A01E6F616753E6600913B65 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		6A01E6F816753E6600913B65 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A01E6DA16753E6500913B65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A01E6E216753E6500913B65 /* Cocoa.framework in Frameworks */,
+				6A01E6E416753E6500913B65 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A01E6D216753E6500913B65 = {
+			isa = PBXGroup;
+			children = (
+				6A01E6E816753E6600913B65 /* QuickMouse */,
+				6A01E6E016753E6500913B65 /* Frameworks */,
+				6A01E6DE16753E6500913B65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A01E6DE16753E6500913B65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A01E6DD16753E6500913B65 /* QuickMouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A01E6E016753E6500913B65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A01E6E116753E6500913B65 /* Cocoa.framework */,
+				6A01E6E316753E6500913B65 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A01E6E816753E6600913B65 /* QuickMouse */ = {
+			isa = PBXGroup;
+			children = (
+				6A01E6F816753E6600913B65 /* AppDelegate.rb */,
+				6A01E6F116753E6600913B65 /* Resources */,
+				6A01E6F516753E6600913B65 /* Other Sources */,
+				6A01E6E916753E6600913B65 /* Supporting Files */,
+			);
+			path = QuickMouse;
+			sourceTree = "<group>";
+		};
+		6A01E6E916753E6600913B65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A01E6EA16753E6600913B65 /* QuickMouse-Info.plist */,
+				6A01E6EB16753E6600913B65 /* InfoPlist.strings */,
+				6A01E6EE16753E6600913B65 /* main.m */,
+				6A01E6F016753E6600913B65 /* QuickMouse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A01E6F116753E6600913B65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A01E6F216753E6600913B65 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6A01E6F516753E6600913B65 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6A01E6F616753E6600913B65 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		6A01E6E516753E6600913B65 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 6A01E6FF16753E6600913B65 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				6A01E6E716753E6600913B65 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		6A01E6DC16753E6500913B65 /* QuickMouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A01E6FC16753E6600913B65 /* Build configuration list for PBXNativeTarget "QuickMouse" */;
+			buildPhases = (
+				6A01E6D916753E6500913B65 /* Sources */,
+				6A01E6DA16753E6500913B65 /* Frameworks */,
+				6A01E6DB16753E6500913B65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickMouse;
+			productName = QuickMouse;
+			productReference = 6A01E6DD16753E6500913B65 /* QuickMouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A01E6D416753E6500913B65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Tristan Hume";
+			};
+			buildConfigurationList = 6A01E6D716753E6500913B65 /* Build configuration list for PBXProject "QuickMouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A01E6D216753E6500913B65;
+			productRefGroup = 6A01E6DE16753E6500913B65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A01E6DC16753E6500913B65 /* QuickMouse */,
+				6A01E6E516753E6600913B65 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A01E6DB16753E6500913B65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A01E6ED16753E6600913B65 /* InfoPlist.strings in Resources */,
+				6A01E6F416753E6600913B65 /* MainMenu.xib in Resources */,
+				6A01E6F716753E6600913B65 /* rb_main.rb in Resources */,
+				6A01E6F916753E6600913B65 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A01E6D916753E6500913B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A01E6EF16753E6600913B65 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A01E6E716753E6600913B65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A01E6DC16753E6500913B65 /* QuickMouse */;
+			targetProxy = 6A01E6E616753E6600913B65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A01E6EB16753E6600913B65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A01E6EC16753E6600913B65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A01E6F216753E6600913B65 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A01E6F316753E6600913B65 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A01E6FA16753E6600913B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6A01E6FB16753E6600913B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6A01E6FD16753E6600913B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickMouse/QuickMouse-Prefix.pch";
+				INFOPLIST_FILE = "QuickMouse/QuickMouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A01E6FE16753E6600913B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickMouse/QuickMouse-Prefix.pch";
+				INFOPLIST_FILE = "QuickMouse/QuickMouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A01E70016753E6600913B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		6A01E70116753E6600913B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A01E6D716753E6500913B65 /* Build configuration list for PBXProject "QuickMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A01E6FA16753E6600913B65 /* Debug */,
+				6A01E6FB16753E6600913B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A01E6FC16753E6600913B65 /* Build configuration list for PBXNativeTarget "QuickMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A01E6FD16753E6600913B65 /* Debug */,
+				6A01E6FE16753E6600913B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A01E6FF16753E6600913B65 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A01E70016753E6600913B65 /* Debug */,
+				6A01E70116753E6600913B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A01E6D416753E6500913B65 /* Project object */;
+}
