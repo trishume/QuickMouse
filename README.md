@@ -10,5 +10,8 @@ You can press `Numpad.` to cancel.
 
 As a shortcut pressing any of the numbers before `Numpad0` displays the grid narrowed to that area without showing the full screen grid.
 
+## Video
+I've recorded a video demoing QuickMouse and explaining how to use it.
+[https://www.youtube.com/watch?v=-uLgPxs1_2A](https://www.youtube.com/watch?v=-uLgPxs1_2A)
 ## Screenshot
 ![Screenshot](http://i.imgur.com/0p0ek.jpg)
