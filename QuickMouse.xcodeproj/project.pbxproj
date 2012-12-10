@@ -14,6 +14,10 @@
 		6A01E6F416753E6600913B65 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A01E6F216753E6600913B65 /* MainMenu.xib */; };
 		6A01E6F716753E6600913B65 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A01E6F616753E6600913B65 /* rb_main.rb */; };
 		6A01E6F916753E6600913B65 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A01E6F816753E6600913B65 /* AppDelegate.rb */; };
+		6A01E703167545C700913B65 /* TransparentWindow.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A01E702167545C700913B65 /* TransparentWindow.rb */; };
+		6A01E7051675464400913B65 /* GridView.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A01E7041675464400913B65 /* GridView.rb */; };
+		6A01E707167562FE00913B65 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A01E706167562FE00913B65 /* ApplicationServices.framework */; };
+		6A01E7091675653500913B65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A01E7081675653500913B65 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +33,7 @@
 /* Begin PBXFileReference section */
 		6A01E6DD16753E6500913B65 /* QuickMouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickMouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A01E6E116753E6500913B65 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		6A01E6E316753E6500913B65 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		6A01E6E316753E6500913B65 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
 		6A01E6EA16753E6600913B65 /* QuickMouse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickMouse-Info.plist"; sourceTree = "<group>"; };
 		6A01E6EC16753E6600913B65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A01E6EE16753E6600913B65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,6 +41,10 @@
 		6A01E6F316753E6600913B65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		6A01E6F616753E6600913B65 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		6A01E6F816753E6600913B65 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		6A01E702167545C700913B65 /* TransparentWindow.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = TransparentWindow.rb; sourceTree = "<group>"; };
+		6A01E7041675464400913B65 /* GridView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = GridView.rb; sourceTree = "<group>"; };
+		6A01E706167562FE00913B65 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		6A01E7081675653500913B65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = /System/Library/Frameworks/CoreGraphics.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A01E7091675653500913B65 /* CoreGraphics.framework in Frameworks */,
+				6A01E707167562FE00913B65 /* ApplicationServices.framework in Frameworks */,
 				6A01E6E216753E6500913B65 /* Cocoa.framework in Frameworks */,
 				6A01E6E416753E6500913B65 /* MacRuby.framework in Frameworks */,
 			);
@@ -72,6 +82,8 @@
 		6A01E6E016753E6500913B65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A01E7081675653500913B65 /* CoreGraphics.framework */,
+				6A01E706167562FE00913B65 /* ApplicationServices.framework */,
 				6A01E6E116753E6500913B65 /* Cocoa.framework */,
 				6A01E6E316753E6500913B65 /* MacRuby.framework */,
 			);
@@ -112,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				6A01E6F616753E6600913B65 /* rb_main.rb */,
+				6A01E702167545C700913B65 /* TransparentWindow.rb */,
+				6A01E7041675464400913B65 /* GridView.rb */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -189,6 +203,8 @@
 				6A01E6F416753E6600913B65 /* MainMenu.xib in Resources */,
 				6A01E6F716753E6600913B65 /* rb_main.rb in Resources */,
 				6A01E6F916753E6600913B65 /* AppDelegate.rb in Resources */,
+				6A01E703167545C700913B65 /* TransparentWindow.rb in Resources */,
+				6A01E7051675464400913B65 /* GridView.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +259,7 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -273,6 +290,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
